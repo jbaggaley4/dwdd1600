@@ -117,16 +117,16 @@ figure.wrapped figcaption {
     font-size: .75rem; 
 }
 
-div. gallery{
+div.gallery{
     display: flex;
     flex-wrap: wrap;
 }
 
-div. gallery figure{
+div.gallery figure{
     margin: .5rem 2% 0 0;  
 }
 
-div. gallery figcaption {
+div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
     color: #b64e11;
