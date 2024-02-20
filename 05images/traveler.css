@@ -1,0 +1,157 @@
+body{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    background-color: #d8b78a;
+        
+}
+
+/* Header Stuff Here*/
+header{
+    background-color: #000;
+    padding: 1rem 2vw;
+    text-align: center
+}
+header h1{
+    margin: 0;
+    color: #fff;
+}
+header p{
+    margin: 0;
+    color: #fff;
+    letter-spacing: .5px
+}
+
+/*nav stuff goes here*/
+nav{
+background-color:  #A20d19;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav  a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem
+    
+}
+nav li.active a{
+    background-color: #fff;
+    color: #A20d19;
+}
+nav a:hover {
+    color: white
+}
+
+/* Stuff for the main*/
+main {
+    padding: 1rem 2vw;
+    
+}
+main h1{
+    color: #A20d19;
+    
+}
+main h2{
+    color: #640c0c;
+   margin-bottom: .2rem; 
+}
+main p{
+    color: #000;
+   margin: 0 0 .3rem 0; 
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: #4D0404;
+    color: white;
+}
+Main ol a{
+    color: white
+}
+Main dl dt{
+    color: #640c0c;
+    font-weight: 700;
+}
+Main dl dd{
+    color: #000;
+    font-size: .9rem;
+}
+Main ul{
+    list-style-type: upper-roman;
+    
+}
+Main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    color: aliceblue;
+    background-color: #4d0404;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 3px solid #024873;
+    border-radius: .8rem;
+}
+main address a{
+    color: whitesmoke
+}
+main a{
+    color: #000
+}
+main a:hover {
+    color: rgb(63.5%,5.1%,9.8%);
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem; 
+    clear:both;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure{
+    margin: .5rem 2% 0 0;  
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #A20d19;
+    }
+
+/* Stuff for the Footer here :0 */
+footer{ 
+background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #fff;
+}
