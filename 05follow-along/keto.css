@@ -121,9 +121,9 @@ div. gallery{
     display: flex;
     flex-wrap: wrap;
 }
+
 div. gallery figure{
-    margin: .5rem 2% 0 0;
-    
+    margin: .5rem 2% 0 0;  
 }
 
 div. gallery figcaption {
