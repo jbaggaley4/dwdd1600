@@ -85,7 +85,8 @@ nav  a{
     
 }
 nav li.active a{
-    background-color: #fff;
+     background-color: #fff;
+    background-image: linear-gradient(to bottom,white,#d8b78a);
     color: #A20d19;
 }
 nav a:hover {
