@@ -1,0 +1,304 @@
+/*prevent problems with different browsers*/
+*{box-sizing: border-box;}
+
+/*body stuff here*/
+body{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    background-color: whitesmoke;
+        
+}
+
+/* Header Stuff Here*/
+header{
+    background-color: #253C59;
+    padding: 1rem 2vw;
+    align-items: flex-end;
+    display: flex;
+}
+header div{
+    padding-left: 1vw;
+}
+header h1{
+    margin: 0px;
+    color: #D9B70D;
+    
+}
+header p{
+    margin: 0;
+    padding: 1;
+    color: #fff;
+    letter-spacing: 0.5px;    
+}
+/*small Screen*/
+@media only screen and (max-width:800px){
+
+nav{
+background-color:  #D9B70D;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+}
+nav  a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2D4B73;
+    font-weight: 700;
+    display: block;
+    padding: .8rem;
+    border-bottom: solid 1px #2D4B73;
+}
+nav li.active a{
+    background-color: #2D4B73;
+    background-image: linear-gradient(to bottom,#253C59,#2D4B73);
+    color: #D9B70D;
+;
+}
+nav a:hover {
+    color: white;
+}
+
+}
+
+/*Big Screen*/
+@media only screen and (min-width:801px){
+
+nav{
+background-color:  #D9B70D;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav  a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2D4B73;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem
+    
+}
+nav li.active a{
+    background-color: #2D4B73;
+    background-image: linear-gradient(to bottom,#253C59,#2D4B73);
+    color: #D9B70D;
+}
+nav a:hover {
+    color: white;
+}
+
+}
+/* Stuff for the main*/
+main {
+    padding: 1rem 2vw;
+    
+}
+main h1{
+    color: #2D4B73;
+    
+}
+main h2{
+    color: #2D4B73;
+   margin-bottom: .2rem; 
+}
+
+main h3{
+    color: #BF8D30;
+        margin-top: .2rem; Margin-bottom: .2rem;
+}
+main p{
+    color: #000;
+   margin: 0 0 .3rem 0; 
+}
+main ol{
+    padding: .5rem 3vw;
+
+    color: black;
+}
+Main ol a{
+    color: black
+}
+Main dl dt{
+    color: ;
+    font-weight: 700;
+}
+Main dl dd{
+    color: #000;
+    font-size: .9rem;
+}
+Main ul{
+    list-style-type: decimal;
+    
+}
+Main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    color: #2D4B73;
+    background-color: #D9B70D;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 3px solid #2D4B73;
+    border-radius: .2rem;
+}
+main address a{
+    color: #2D4B73
+}
+main a{
+    color: #000
+}
+main a:hover {
+    color: #99B4BF;
+}
+.hero{
+    width: 100%;
+    margin: 0;
+    }
+.hero img{
+    width: 100%;
+        margin: 0;
+    height: auto;
+}
+
+div.gallery figure{
+    border: 1px solid #2D4B73;}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem; 
+    clear:both;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure{
+    margin: .5rem 2% 0 0;  
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #2D4B73;
+    }
+
+div.gallery img:hover {
+    box-shadow: .5px .5px 10px rgba(0,0,0,.4);
+}
+
+.myForm fieldset{
+    border:2px solid #2D4B73;
+    border-radius: 3 px;
+    margin-bottom: 1rem;
+}
+.myForm legend{
+    color: #2D4B73;
+        font-size: .9rem;
+}
+
+.myForm label {
+    margin: .5rem;    
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea, .myForm [type=email] {
+    display:block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea, .myForm [type=email] {
+    border: solid 2px rgba(0,0,0,.5);
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.myForm textarea {
+    height: 6rem;
+    color: #2D4B73;
+}
+
+.myForm :required {
+    background-color: rgba(153,180,191,0.3)
+}
+
+.myForm [type=submit] {
+    background: #D9B70D;
+    border: solid 2px rgba(0,0,0);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: #2D4B73;
+    font-size: 1rem;
+    margin: 1rem 0 0 1vm;
+}
+table.billie-albums {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid;
+    border-color: #2D4B73;
+}
+
+table.billie-albums th{
+    background-color: #2D4B73;
+    color: #D9B70D;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.billie-albums td{
+    color: black;
+    padding: .4rem 2vw; 
+}
+
+table.billie-albums tr:nth-child(odd){
+    background-color: rgba(153,180,191,0.3);
+    color: black;
+}
+
+table.billie-albums tr:hover{
+    background-color: rgba(153,180,191,0.9);
+}
+
+
+/* Stuff for the Footer here :0 */
+footer{ 
+background-color: #2D4B73;
+    text-align: center;
+    color: #D9B70D;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #D9B70D;
+}
+
+header, nav, main, footer{
+    max-width: 58rem;
+    margin: 0 auto;
+    
+}
